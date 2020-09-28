@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/greetings",
+            "lambdaFunction": "greetingsapi",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/greetings"
+        }
+    ],
+    "resourceName": "greetingsapi",
+    "apiName": "greetingsapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "greetingsapi"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-portfolioapp-dev-14925-authRole",
+        "unAuthRoleName": "amplify-portfolioapp-dev-14925-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "greetingsapi",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
