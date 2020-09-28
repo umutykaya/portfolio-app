@@ -2,7 +2,7 @@ import json
 
 def handler(event, context):
   body = {
-    "message": "Hello from python lambda!"
+    "message": "Hello this is the first python lambda!"
   }
 
   response = {
