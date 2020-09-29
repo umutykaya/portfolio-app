@@ -10,6 +10,21 @@
       "StackName": "amplify-portfolioapp-dev-14925",
       "StackId": "arn:aws:cloudformation:us-east-1:873927283701:stack/amplify-portfolioapp-dev-14925/b3bc7190-0113-11eb-9847-126c97cb5bc1",
       "AmplifyAppId": "d3q8pgx7qbnlg2"
+    },
+    "nonCFNdata": {
+      "function": {
+        "pythonenv": {
+          "layerVersionMap": {
+            "1": {
+              "permissions": [
+                {
+                  "type": "private"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
